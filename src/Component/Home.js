@@ -7,7 +7,8 @@ display:flex;
 justify-content: center;
 width:100%;
 height:100%;
-background-image: url(../public/img/back/1.JPG);
+background-image: url(${process.env.PUBLIC_URL + '/img/back/1.JPG'});
+background-size: cover;
 gap: 200px;
 padding-top: 100px;
 
@@ -22,7 +23,7 @@ height:100%;
 object-fit: cover; 
 `;
 const HomeText =styled.div`
-fontsize:30px
+font-size:30px;
 `;
 
 export default function Home() {
