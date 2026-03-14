@@ -20,10 +20,20 @@ background-color: rgb(75, 75, 214);
 
 .gnb_box {
   display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 30px;
+  justify-content: space-between;
   
+  /* text-align: center; */
+  font-size: 30px;
+  font-weight: bold;
+  
+  
+}
+.gnb_box a {
+  color: wheat;
+}
+
+.gnb_box a:hover {
+  color: black;
 }
 .gnb {
   display: flex;

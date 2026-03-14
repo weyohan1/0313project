@@ -18,14 +18,14 @@ function App() {
 
 <nav className='gnb_box'>
 <ul className='gnb'>
-<li><Link to='/'>Home</Link></li>
-<li><Link to='/mechanical'>MechanicalKeyboard</Link></li>
-<li><Link to='/membrane'>MembraneKeyboard</Link></li>
+<li><Link to='/'>홈</Link></li>
+<li><Link to='/mechanical'>기계식 키보드</Link></li>
+<li><Link to='/membrane'>멤브레인 키보드</Link></li>
 </ul>
 
 <ul className='gnb01'>
-<li><Link to='/login'>login</Link></li>
-<li><Link to='/cart'>cart</Link></li>
+<li><Link to='/login'>로그인</Link></li>
+<li><Link to='/cart'>장바구니</Link></li>
 </ul>
 
 </nav>
