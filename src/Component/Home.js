@@ -34,7 +34,7 @@ export default function Home() {
 
       <HomeBox01>
         <Link to="/mechanical">
-      <HomeBoxImg01 src={process.env.PUBLIC_URL + '/img/back/1.jpg'} alt = '메인' />
+      <HomeBoxImg01 src={process.env.PUBLIC_URL + '/img/back/1.JPG'} alt = '메인' />
         </Link>
       <HomeText>
         <p>기계식 키보드</p>
@@ -43,7 +43,7 @@ export default function Home() {
 
       <HomeBox01>
          <Link to="/membrane">
-      <HomeBoxImg01 src={process.env.PUBLIC_URL + '/img/back/1.jpg'} alt = '메인' />
+      <HomeBoxImg01 src={process.env.PUBLIC_URL + '/img/back/1.JPG'} alt = '메인' />
          </Link>
          <HomeText>
         <p>멤브레인 키보드 </p>
